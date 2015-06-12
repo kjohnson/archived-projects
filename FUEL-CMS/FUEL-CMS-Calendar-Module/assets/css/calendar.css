@@ -1,0 +1,70 @@
+.ico_calendar { background-image: url(../images/ico_cog.png); }
+
+.calendar-category {
+	margin-bottom: 20px;
+	padding: 2px 0 5px 10px;
+	border-left: 5px solid black;
+}
+.calendar-category a {
+	color: inherit;
+	text-decoration: none;
+}
+.calendar-category ul {
+	list-style-type: none;
+}
+
+/**
+ * Generated Calendar
+ */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+.calendar {
+  table-layout: fixed;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+.calendar td {
+  border: 1px solid black;
+  vertical-align: top;
+  height: 100px;
+}
+.calendar-title {
+  font-size: 2em;
+}
+.calendar-weekday th {
+  height: auto;
+  font-weight: bold;
+  border: 1px solid black;
+  color: #E7E7E7;
+  background-color: #444;
+}
+.calendar-day {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  background-color: #E7E7E7;
+}
+.calendar-day:hover {
+  background-color: #ECF1F5;
+}
+.calendar-date {
+  text-align: right;
+}
+.calendar-content {
+  text-align: left;
+}
+.calendar-today {
+  color: #0E3E7E;
+  font-weight: bold;
+}
+.calendar-event {
+	margin-bottom: 2px;
+	padding-left: 3px;
+	border-left: 3px solid #444;
+}
+.calendar-event-tooltip {
+  cursor: help;
+}

@@ -1,0 +1,22 @@
+html {
+    height: 100%;
+    max-width: 100%;
+}
+body {
+	background-color: #283E94;
+}
+img {
+	max-width: 100%;
+}
+img.center {
+	margin: auto;
+	text-align: center;
+}
+#openButton, #closeButton {
+	max-height: 100%;
+	max-width: 90%;
+	width: 400px;
+	height: 100px;
+	text-align: center;
+	margin: 20px auto;
+}

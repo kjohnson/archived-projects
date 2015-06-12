@@ -1,0 +1,4 @@
+<?php 
+define('QUESTIONNAIRE_VERSION', '1.0');
+define('QUESTIONNAIRE_FOLDER', 'questionnaire');
+define('QUESTIONNAIRE_PATH', MODULES_PATH.QUESTIONNAIRE_FOLDER.'/');

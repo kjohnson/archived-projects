@@ -1,0 +1,40 @@
+input, select {
+	width: 100%;
+}
+hr.spacer {
+	margin: 30px auto;
+	height: 0px;
+	border: 0px none;
+}
+img.center {
+	display: block;
+	margin: auto;
+}
+label.hidden {
+	display: none;
+}
+
+/* generic classes */
+.clear { clear: both; height: 0; line-height: 0; font-size: 0; }
+.left { float: left; }
+.right { float: right; }
+.img_left { float: left; margin: 0 15px 15px 0; }
+.img_right { float: right; margin: 0 0px 15px 15px; }
+
+div#right { float: right; width: 300px; margin: 0 20px; }
+
+/**
+ * Social Links
+ */
+i.facebook-blue {
+	color: rgb(59, 89, 152);
+}
+i.twitter-blue {
+	color: rgb(0, 172, 237);
+}
+i.google-plus-red {
+	color: rgb(221, 75, 57);
+}
+i.linkedin-blue {
+	color: rgb(0, 123, 182);
+}

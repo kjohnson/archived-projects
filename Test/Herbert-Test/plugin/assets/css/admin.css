@@ -1,0 +1,29 @@
+.herbert-test__admin {
+    box-sizing: border-box;
+    padding-right: 20px;
+}
+.herbert-test__admin *,
+.herbert-test__admin *:before,
+.herbert-test__admin *:after {
+    box-sizing: inherit;
+}
+
+.herbert-test__content {
+    padding: 20px;
+}
+
+.hero {
+    width: 100%;
+    color: white;
+    padding: 20px 20px 10px 40px;
+    background-color: #53c29c;
+}
+.hero__logo {
+    height: 3em;
+    width: auto;
+    vertical-align: middle;
+}
+.hero__title {
+    display: inline-block;
+    font-size: 3em;
+}
